@@ -1,0 +1,186 @@
+@charset "utf-8"
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-wrapper {
+  height: 3em;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 234, 255, 0.1);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  font-size: 1.5em;
+  padding: 0 5%;
+}
+
+.nav-link {
+  display: block;
+  padding: 10% 0;
+  color: rgb(255, 179, 0);
+}
+
+.nav-link:hover {
+  color: orangered;
+}
+
+.top {
+  background-image: url("../img/14447.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40em;
+}
+
+.top-title {
+  /* font-family: cursive; */
+  font-size: 2em;
+  line-height: 3em;
+  color: rgb(0, 75, 255);
+  text-shadow: 3px 5px 5px white;
+}
+
+.top-title span {
+  font-size: 2em;
+}
+
+.about-section {
+  padding: 10% 0;
+  height: 25em;
+}
+
+.inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 5em;
+  color: rgb(0, 75, 255, 0.8);
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.about-left {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.about-img {
+  border-radius: 20%;
+}
+
+.about-left h3 {
+  font-size: 3em;
+  margin-top: 5%;
+}
+
+.about-right {
+  width: 50%;
+  float: right;
+}
+
+.about-right h3 {
+  font-size: 1.5em;
+  border-bottom: 2px solid pink;
+  margin-bottom: 2%;
+}
+
+.about-right p {
+  line-height: 1.2em;
+}
+
+.about-right .skill {
+  margin-top: 8%;
+}
+
+.works-section {
+  padding: 10% 0;
+}
+
+.works-section h3 {
+  text-align: center;
+  font-size: 2em;
+  margin: 2% 0;
+}
+
+.works-section p {
+  text-align: center;
+  margin: 2%;
+}
+
+.work-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-item {
+  width:24%;
+}
+
+.work-item a img{
+  width: 100%;
+}
+
+.work-ttl {
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 5%;
+}
+
+.contact-section p {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 2% 0;
+  line-height: 1.5em;
+}
+
+.contact-section .contact-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-item img {
+  width: 5em;
+}
+
+.bottom {
+  background-color: #333;
+}
+
+.bottom .inner {
+  padding: 2.5%;
+}
+
+.copyright {
+  font-size: 1em;
+  text-align: center;
+  color: #fff;
+}
