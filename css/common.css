@@ -163,12 +163,14 @@ li {
 
 .contact-section .contact-list {
   display: flex;
-  justify-content: center;
+  margin: 0 40%;
+  justify-content: space-around;
   align-items: center;
 }
 
 .contact-item img {
   width: 5em;
+  border-radius: 20%;
 }
 
 .bottom {
